@@ -1,0 +1,23 @@
+.login-widget form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  label,
+  .submit {
+    text-align: left;
+    letter-spacing: 2px;
+
+    margin: 20px;
+  }
+  input {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    height: 20px;
+    background-color: white;
+  }
+  .submit {
+    background-color: #2196f3;
+    padding-left: 10px;
+  }
+}
